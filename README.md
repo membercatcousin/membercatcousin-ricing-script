@@ -7,15 +7,15 @@ This project is just membercatcousin's own little arch Linux ricing script. Feel
 
 ## Features:
 
-- NONE
+- `yay` AUR Helper installer.
 
 # Future Features:
 
-- `yay` AUR Helper installer.
 - Desktop enviroment installer.
 - Browser installer.
 - Lots of apps that you could choose from! :D
 - App deleter.
+- EVEN MORE FEATURES!
 
 ## License:
 
