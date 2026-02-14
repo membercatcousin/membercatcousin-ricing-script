@@ -10,7 +10,7 @@ echo "membercatcousin's ricing script Installer!"
 if command -v yay &> /dev/null; then
     echo "✅ yay is already installed! Skipping..."
 else
-    echo "⚠️ yay not found. Installing..."
+    echo "⚠️ yay not found."
     
     sudo pacman -Syu
     sudo pacman -S --needed base-devel git
@@ -27,3 +27,26 @@ fi
 
 echo "verfiying yay..."
 yay --version
+
+# --browser installer (crying emoji)--#
+read -p "Install a Browser? (y/n) " -n 1 -r
+if [[ $REPLY =~ [Yy]$ ]]; then
+  echo "Select a Browser"
+  echo "1.Mozilla Firefox"
+  echo "2.Chromium"
+  echo "3.Google Chrome"
+  echo "4.Brave"
+  echo "5.Opera"
+  echo "6.Microsoft Edge"
+
+read -p "Enter your choice (1-6): " choice
+
+case $choice in
+  1) sudo pacman -S firefox --noconfirm ;;
+  2) sudo pacman -S chromium --noconfirm ;;
+  3) sudo pacman -S google-chrome --noconfirm ;;
+  4) sudo pacman -S brave-browser --noconfirm ;;
+  5) sudo pacman -S opera --noconfirm ;;
+  6) sudo pacman -S microsoft-edge --noconfirm;;
+  *) echo "Invalid choice:" ;;
+esac
