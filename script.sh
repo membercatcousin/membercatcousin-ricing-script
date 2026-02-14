@@ -11,7 +11,8 @@ if command -v yay &> /dev/null; then
     echo "✅ yay is already installed! Skipping..."
 else
     echo "⚠️ yay not found."
-    
+    read -p "Install yay?(y/n):" -n 1 -r
+    if [[ $REPLY =~ [Yy]$ ]] then    
     sudo pacman -Syu
     sudo pacman -S --needed base-devel git
     # Clone into /tmp so we don't clutter the user's home folder
