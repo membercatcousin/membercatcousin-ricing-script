@@ -8,8 +8,8 @@ This project is just membercatcousin's own little arch Linux ricing script. Feel
 ## Features:
 
 - `yay` AUR Helper installer.
-- Browser Installation
-- 
+- Browser Installation.
+
 # Future Features:
 
 - Desktop enviroment installer.
