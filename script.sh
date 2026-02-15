@@ -3,9 +3,9 @@
 # -- membercatcousin's ricing script --
 
 echo "membercatcousin's ricing script Installer!"
-
+echo "Thank you for using our product >w<"
 # --Python installer-- :D
-
+#noice tysm for adding python
 sudo pacman -Syu
 sudo pacman -S python
 
@@ -25,7 +25,6 @@ else
         git clone https://aur.archlinux.org/yay.git /tmp/yay
         cd /tmp/yay
         makepkg -si --noconfirm
-    
         # Clean up the installation files bcoz we gotta leave no evidence :skull:
         cd ~
         rm -rf /tmp/yay
@@ -36,30 +35,5 @@ fi
 echo "verfiying yay..."
 yay --version
 
-# --browser installer (crying emoji)--#
-read -p "Install a Browser? (y/n) " -n 1 -r
-if [[ $REPLY =~ [Yy]$ ]]; then
-  echo "Select a Browser"
-  echo "1.Mozilla Firefox"
-  echo "2.Chromium"
-  echo "3.Google Chrome"
-  echo "4.Brave"
-  echo "5.Opera"
-  echo "6.Microsoft Edge"
-
-read -p "Enter your choice (1-6): " choice
-
-case $choice in
-  1) sudo pacman -S firefox --noconfirm ;;
-  2) sudo pacman -S chromium --noconfirm ;;
-  3) sudo pacman -S google-chrome --noconfirm ;;
-  4) sudo pacman -S brave-browser --noconfirm ;;
-  5) sudo pacman -S opera --noconfirm ;;
-  6) sudo pacman -S microsoft-edge --noconfirm;;
-  *) echo "Invalid choice:" ;;
-esac
-
-#DE installation (someone do it i cant)
-#OK ill do it (membercatcousin)
-#do it u didnt do it and i dont use arch so i dont know the binaries(lemon)
-python de_installer.py
+# -- ALL IN ONE SCRIPT --#
+python script.py

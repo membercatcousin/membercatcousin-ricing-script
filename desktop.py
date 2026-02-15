@@ -32,6 +32,7 @@ def de_install():
         if opt == "6":
             print("Cancelling...")
             break
-        else:
+        else:jhjkhkt
             print("Not a valid option")
             break
+print("Our project is contributed by membercatcousin,robin-persona,Cloud67TR and... on \033[94m\033[1mhttps://github.com/membercatcousin/membercatcousin-ricing-script\033[0m")
