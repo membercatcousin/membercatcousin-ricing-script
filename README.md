@@ -9,11 +9,12 @@ This project is just membercatcousin's own little arch Linux ricing script. Feel
 
 - `yay` AUR Helper installer.
 - Browser Installation.
+- Desktop Environment(99%)
 
 # Future Features:
 
-- Desktop enviroment installer.
-- Lots of apps that you could choose from! :D
+- First time Setup help
+- App Installer
 - App deleter.
 - EVEN MORE FEATURES!
 
