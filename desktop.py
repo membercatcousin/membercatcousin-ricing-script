@@ -35,4 +35,4 @@ def de_install():
         else:jhjkhkt
             print("Not a valid option")
             break
-print("Our project is contributed by membercatcousin,robin-persona,Cloud67TR and... on \033[94m\033[1mhttps://github.com/membercatcousin/membercatcousin-ricing-script\033[0m")
+print("Our project is contributed by membercatcousin,robin-persona,Cloud67TR and playcreator-ab on \033[94m\033[1mhttps://github.com/membercatcousin/membercatcousin-ricing-script\033[0m")
