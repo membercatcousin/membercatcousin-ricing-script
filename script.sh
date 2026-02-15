@@ -3,7 +3,12 @@
 # -- membercatcousin's ricing script --
 
 echo "membercatcousin's ricing script Installer!"
-# someone add a pyotn installer for de instalaltion
+
+# --Python installer-- :D
+
+sudo pacman -Syu
+sudo pacman -S python
+
 # -- yay installer --
 
 # Check if yay is ALREADY installed so we don't waste time and not get enuf food in the asian buffet
@@ -55,5 +60,5 @@ case $choice in
 esac
 
 #DE installation (someone do it i cant)
-echo "Type "python de_installer.py" to install desktop environments"
-#sh versus python
+#OK ill do it (membercatcousin)
+python de_installer.py
