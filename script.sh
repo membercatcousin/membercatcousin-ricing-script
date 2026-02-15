@@ -61,4 +61,5 @@ esac
 
 #DE installation (someone do it i cant)
 #OK ill do it (membercatcousin)
+#do it u didnt do it and i dont use arch so i dont know the binaries(lemon)
 python de_installer.py
