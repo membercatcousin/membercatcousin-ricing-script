@@ -18,6 +18,10 @@ This project is just membercatcousin's own little arch Linux ricing script. Feel
 - App deleter.
 - EVEN MORE FEATURES!
 
+## HOW TO USE:
+- Step-1:
+  someone add it gtg
+
 ## License:
 
 This project is liscensed under [The GNU General Public License v3](https://www.gnu.org/licenses/gpl-3.0.html).
