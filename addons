@@ -1,0 +1,33 @@
+import subprocess
+def apps_install():
+    while True:
+        print("""Choose an app to install
+        0. I'm done
+        1. Krita
+        2. Discord
+        3. VS Code
+        4. Node.js and NPM
+        6.Cancel""")
+        opt = input("Choose an app(1/2/3...): ")
+        if opt == "0":
+            print("Thank you!")
+            break
+        if opt == "2":
+            print("Installing Discord...")
+            subprocess.run(["sudo", "pacman", "-S", "discord", "--noconfirm"])
+            continue
+        if opt == "3":
+            print("Installing VS Code...")
+            subprocess.run(["sudo", "yay", "-S", "visual-studio-code-bin", "--noconfirm"])
+            continue
+        if opt == "4":
+            print("Installing Node.js and NPM...")
+            subprocess.run(["sudo", "pacman", "-S", "nodejs npm", "--noconfirm"])
+            continue
+        if opt == "6":
+            print("Cancelling...")
+            break
+        else:
+            print("Not a valid option")
+            break
+print("Our project is contributed by membercatcousin,robin-persona,Cloud67TR and playcreator-ab on \033[94m\033[1mhttps://github.com/membercatcousin/membercatcousin-ricing-script\033[0m")
