@@ -3,7 +3,6 @@
 # -- membercatcousin's ricing script --
 
 echo "membercatcousin's ricing script Installer!"
-echo "Thank you for using our product >w<"
 # --Python installer-- :D
 #noice tysm for adding python
 sudo pacman -Syu
