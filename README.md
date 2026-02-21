@@ -1,7 +1,7 @@
 # ![logo](https://github.com/user-attachments/assets/500db758-e739-4ba9-9bb0-d81e887627de)
 
 ## About
-This is **membercatcousin**'s personal Arch Linux ricing script.  AND BKHR's
+This is **membercatcousin**'s personal Arch Linux ricing script.
 It helps you set up your system faster and look cooler while doing it.  
 Feel free to contribute—or just use it as-is.
 
@@ -25,13 +25,12 @@ Feel free to contribute—or just use it as-is.
 ## How to Use
 1. Clone this repo:  
    ```bash
-   git clone https://github.com/yourusername/ricing-script.git
-   cd ricing-script
-2. TOo lazy to finish
+   git clone https://github.com/membercatcousin/membercatcousin-ricing-script.git
+   cd membercatcousin-ricing-script
+   ./script.sh
 
 ---
 
 ## License
 
-This project is licensed under GNU GPL v3
-made with ❤️ by membercatcousin, bkhr, bkhr, bkhr, did i mention bkhr?, cloud67 HAHAHAHAHAH TR, and robin-persona. and bkhr.
+This project is licensed under GNU General Public Liscence v3
