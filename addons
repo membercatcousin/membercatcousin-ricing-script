@@ -5,7 +5,7 @@ def apps_install():
         0. I'm done
         1. Krita
         2. Discord
-        3. VS Code
+        3. VS Code (Open source version)
         4. Node.js and NPM
         6.Cancel""")
         opt = input("Choose an app(1/2/3...): ")
@@ -18,7 +18,7 @@ def apps_install():
             continue
         if opt == "3":
             print("Installing VS Code...")
-            subprocess.run(["sudo", "yay", "-S", "visual-studio-code-bin", "--noconfirm"])
+            subprocess.run(["sudo", "pacman", "-S", "code", "--noconfirm"])
             continue
         if opt == "4":
             print("Installing Node.js and NPM...")
