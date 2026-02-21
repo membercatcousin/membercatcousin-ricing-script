@@ -1,22 +1,36 @@
 # ![logo](https://github.com/user-attachments/assets/500db758-e739-4ba9-9bb0-d81e887627de)
 
+## About
+This is **membercatcousin**'s personal Arch Linux ricing script.
+It helps you set up your system faster and look cooler while doing it.  
+Feel free to contribute—or just use it as-is.
 
-## About:
+---
 
-This project is just membercatcousin's own little arch Linux ricing script. Feel free to contribute or not contribute.
+## Features
+- **AUR Helper Installer**: Installs `yay` automatically.  
+- **Browser Installer**: Sets up your favorite web browsers.  
+- **Desktop Environment Installer**: Installs your DE of choice (currently 99% functional).
 
-## Features:
+---
 
-- `yay` AUR Helper installer.
-- Browser Installation.
+## Future Features
+- First-time setup assistant  
+- Application installer  
+- Application remover  
+- And even more cool stuff!
 
-# Future Features:
+---
 
-- Desktop enviroment installer.
-- Lots of apps that you could choose from! :D
-- App deleter.
-- EVEN MORE FEATURES!
+## How to Use
+1. Clone this repo:  
+   ```bash
+   git clone https://github.com/membercatcousin/membercatcousin-ricing-script.git
+   cd membercatcousin-ricing-script
+   ./script.sh
 
-## License:
+---
 
-This project is liscensed under [The GNU General Public License v3](https://www.gnu.org/licenses/gpl-3.0.html).
+## License
+
+This project is licensed under GNU General Public Liscence v3
