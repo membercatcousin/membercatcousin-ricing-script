@@ -4,13 +4,13 @@ def install():
         print("Installing Browser...")
         print("Choose a browser:")
         print("""
-        1.Mozilla Firefox
-        2.Chromium
-        3.Brave
-        4.Opera
-        5.Google Chrome
-        6.MicroSoft Edge
-        7.Cancel and return
+        1. Firefox
+        2. Chromium
+        3. Brave
+        4. Opera
+        5. Google Chrome
+        6. Microsoft Edge
+        7. Cancel and return
         """)
         opt = input("Choose an option(1/2/3...): ")
         if opt == "1":
