@@ -35,7 +35,7 @@ def install():
             continue
         if opt == "6":
             print("Installing Edge...")
-            subprocess.run(["sudo", "pacman", "-S", "microsofr-edge", "--noconfirm"])
+            subprocess.run(["sudo", "pacman", "-S", "microsoft-edge", "--noconfirm"])
             continue
         if opt == "7":
             print("Cancelling...")
