@@ -33,4 +33,4 @@ Feel free to contribute—or just use it as-is.
 
 ## License
 
-This project is licensed under GNU General Public Liscence v3
+This project is licensed under GNU General Public Licence v3
