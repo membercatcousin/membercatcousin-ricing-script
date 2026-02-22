@@ -10,13 +10,12 @@ Feel free to contribute—or just use it as-is.
 ## Features
 - **AUR Helper Installer**: Installs `yay` automatically.  
 - **Browser Installer**: Sets up your favorite web browsers.  
-- **Desktop Environment Installer**: Installs your DE of choice (currently 99% functional).
-
+- **Desktop Environment Installer**: Installs your DE of choice.
+- **Additional Packages Installer**: Helps you install some packages so you dont have to do the hard work.(we will add more in the future)
 ---
 
 ## Future Features
 - First-time setup assistant  
-- Application installer  
 - Application remover  
 - And even more cool stuff!
 
