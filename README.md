@@ -1,5 +1,7 @@
 # ![logo](https://github.com/user-attachments/assets/500db758-e739-4ba9-9bb0-d81e887627de)
 
+### WARNING: This project will not be updated anymore, but be happy to open pull requests as i might accept them!
+
 ## About
 This is **membercatcousin**'s personal Arch Linux ricing script.
 It helps you set up your system faster and look cooler while doing it.  
